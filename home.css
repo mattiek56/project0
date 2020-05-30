@@ -1,0 +1,112 @@
+
+html,body {
+    height: 100%
+
+
+}
+
+#logo {
+	padding: 1%;
+	font-family: 'Permanent Marker', cursive;
+	color: #292929;
+
+}
+
+.welcome-message {
+	background-color: #FCD5CE;
+	border-bottom: 6px dotted #F8EDEB;
+	border-bottom-width: 60%;
+}
+
+.section-title {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.container-height {
+	height: 100vh;
+	
+}
+
+.nav {
+	justify-content: center;
+	position: fixed;
+	background-color: white;
+}
+
+.nav-pills {
+	background-color: #292929;
+}
+
+.nav-link {
+	color:#FFB5A7;
+	margin-left: 7%;
+	margin-right: 2%;
+}
+
+#active {
+  	background-color: #FFB5A7;
+
+  }
+
+.social-icons {
+	text-align: center;
+	
+}
+
+.baby-div {
+	height: 100vh;
+	background-color: #FCD5CE; 
+	
+
+}
+
+.about-section {
+	color: #292929;
+	background-color: #FCD5CE;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.about-image {
+	text-align: center;
+	
+}
+
+.testing {
+
+	margin-right: 10%;
+	padding: 2%;
+}
+
+.fa {
+	color: #292929;
+	text-decoration: none;
+
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	padding: 2%;
+	font-size: 20px;
+}
+
+.footer-div {
+	background-color: #FCD5CE;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer-text {
+	display: inline;
+}
+#footer {
+	width: 100%;
+
+}
+
+
+
+
