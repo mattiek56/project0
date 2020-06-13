@@ -1,6 +1,7 @@
 
-#override {
 
+#override {
+	font-family: 'Roboto', sans-serif;
 	background-color:#FCD5CE;
 
 }
@@ -31,8 +32,7 @@
 .nav {
 	justify-content: center;
 	background-color: #292929;
-
-	
+	height: 100%;
 }
 
 .nav-pills {
@@ -53,11 +53,14 @@
 
 }
 
-.nav.navbar-fixed-left {
-	position: fixed;
-	top:0;
-	left:0;
+.blog-post-total {
+	background-color: #F8EDEB;
+	max-width:60%;
+	margin:0 auto;
+	padding: 5%;
+	margin-top:2%;
 }
+
 
 #active {
   	background-color: #FFB5A7;
@@ -183,7 +186,60 @@
 
 
 
+.emphasize-text {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.blog-title {
+	text-align: center;
+}
 
 
 
+@media (min-width: 374px) and (max-width: 575.98px) {
+	.nav {
+		height: 10%;
+
+	}
+
+	#logo {
+		display: none;
+	}
+
+	.fixed-bottom {
+		top: 0;
+	}
+
+	body {
+	padding-top: 20%;
+}
+	.welcome-message {
+		border-bottom: 0px;
+	}
+
+	.blog-post-total {
+		max-width: 100%;
+		margin-bottom: 10%;
+	}
+
+	.right-column-body {
+		margin-top:3%;
+
+	}
+
+	.testing {
+		margin-right: 0!important;
+	}
+	.about-text {
+		margin-top: 10%;
+		text-align: justify;
+	}
+
+	.section-title {
+		text-align: center;
+	}
+
+	ul {
+		padding: 0;
+	}
 
